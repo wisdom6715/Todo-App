@@ -1,0 +1,16 @@
+.parentContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.todoItemContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 63%;
+  gap: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}

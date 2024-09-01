@@ -1,0 +1,33 @@
+.inputDiv {
+  background-color: white;
+  padding: 2rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  display: flex;
+  margin-top: 5rem;
+  width: 60%;
+  gap: 1rem;
+  border-radius: 8px;
+}
+.inputForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputBlock {
+  width: 90%;
+  border: none;
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+.submitButton {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(185, 250, 55);
+  color: white;
+  font-size: 1rem;
+}
+.inputBlock:focus {
+  outline: none;
+}
